@@ -1,6 +1,8 @@
 name: "Protocol Buffer Go Stubs Generation"
 on:
   push:
+    branches:
+      - "master"
     tags:
       - v**
 jobs:
